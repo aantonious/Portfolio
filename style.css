@@ -1,0 +1,262 @@
+.container {
+    font-family: "Playfair Display", serif;
+    color: #000;
+    background-color: #fdfbf4;
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 62px 48px;
+    align-items: center;
+  }
+  
+  @media (max-width: 991px) {
+    .nav {
+      padding: 30px;
+    }
+  }
+  
+  .logo {
+    width: 106px;
+    height: 106px;
+    background-color: #eee2f0;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 168px;
+  }
+  
+  @media (max-width: 991px) {
+    .nav-links {
+      gap: 50px;
+    }
+  }
+  
+  @media (max-width: 640px) {
+    .nav-links {
+      display: none;
+    }
+  }
+  
+  .nav-item {
+    font-size: 32px;
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .hero {
+    display: flex;
+    position: relative;
+    padding: 0 325px;
+    margin-top: 40px;
+  }
+  
+  @media (max-width: 991px) {
+    .hero {
+      padding: 0 50px;
+      flex-direction: column;
+    }
+  }
+  
+  @media (max-width: 640px) {
+    .hero {
+      padding: 0 20px;
+    }
+  }
+  
+  .hero-content {
+    max-width: 666px;
+  }
+  
+  .hero-title {
+    font-size: 128px;
+    font-style: italic;
+    font-weight: 600;
+    margin-bottom: 40px;
+    padding-right: 39px;
+  }
+  
+  @media (max-width: 991px) {
+    .hero-title {
+      font-size: 80px;
+    }
+  }
+  
+  @media (max-width: 640px) {
+    .hero-title {
+      font-size: 50px;
+    }
+  }
+  
+  .name {
+    font-weight: 700;
+  }
+  
+  .hero-text {
+    font-size: 32px;
+    margin-bottom: 30px;
+  }
+  
+  @media (max-width: 640px) {
+    .hero-text {
+      font-size: 24px;
+    }
+  }
+  
+  .hero-image {
+    width: 721px;
+    height: 645px;
+    object-fit: contain;
+  }
+  
+  @media (max-width: 991px) {
+    .hero-image {
+      width: 100%;
+      height: auto;
+      margin-top: 40px;
+    }
+  }
+  
+  .social-links {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    padding: 0 322px;
+    margin-top: 40px;
+  }
+  
+  @media (max-width: 991px) {
+    .social-links {
+      padding: 0 50px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+  
+  @media (max-width: 640px) {
+    .social-links {
+      flex-direction: column;
+      gap: 30px;
+    }
+  }
+  
+  .social-item {
+    font-size: 40px;
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .name-text {
+    font-size: 36px;
+    margin-left: auto;
+  }
+  
+  .social-icons {
+    width: 223px;
+    height: 45px;
+  }
+  
+  .circle-bg {
+    position: absolute;
+    left: 0;
+    top: 513px;
+    width: 769px;
+    height: 767px;
+    border-radius: 50%;
+    background: linear-gradient(180deg, #fdfbf4 55%, #eee2f0 100%);
+    z-index: -1;
+  }
+  
+  .about-section {
+    font-size: 65px;
+    text-align: center;
+    margin: 100px 0 50px;
+  }
+  
+  @media (max-width: 640px) {
+    .about-section {
+      font-size: 40px;
+    }
+  }
+  
+  .section-title {
+    font-size: 65px;
+    text-align: center;
+    margin: 100px 0 50px;
+  }
+  
+  @media (max-width: 640px) {
+    .section-title {
+      font-size: 40px;
+    }
+  }
+  
+  .experience-text {
+    font-size: 36px;
+    text-align: center;
+    max-width: 1466px;
+    margin: 0 auto 100px;
+  }
+  
+  @media (max-width: 640px) {
+    .experience-text {
+      font-size: 24px;
+      padding: 0 20px;
+    }
+  }
+  
+  .experience-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 394px);
+    gap: 30px;
+    justify-content: center;
+  }
+  
+  @media (max-width: 991px) {
+    .experience-grid {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 50px;
+      padding: 0 30px;
+    }
+  }
+  
+  @media (max-width: 640px) {
+    .experience-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  .experience-item {
+    text-align: center;
+  }
+  
+  .experience-title {
+    font-size: 40px;
+  }
+  
+  @media (max-width: 640px) {
+    .experience-title {
+      font-size: 32px;
+    }
+  }
+  
+  .company-logo {
+    width: 506px;
+    height: 193px;
+    object-fit: contain;
+    margin: -100px 0 26px -56px;
+  }
+  
+  .experience-image-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .experience-image {
+    width: 394px;
+    height: 394px;
+  }
+  
